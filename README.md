@@ -14,7 +14,7 @@ MAKE SURE NODE IS INSTALLED
 5. by default, the database that is used is hosted on mLAB.
 
 
-							-------------BASIC FUNCTIONALITY-------------
+							-------------FUNCTIONALITIES-------------
 
 1. SIGNUP
 
@@ -44,8 +44,6 @@ MAKE SURE NODE IS INSTALLED
 *	Send a GET request as --> localhost:3000/logout
 
 
-
-							-------------EXTENDED FUNCTIONALITY-------------
 
 4. FOLLOW
 
@@ -114,8 +112,6 @@ MAKE SURE NODE IS INSTALLED
 		   (SIGNUP TEST)
 
 
-
-		   					-------------EXTRA CREDIT-------------
 
 9. LIKE A TWEET
 
