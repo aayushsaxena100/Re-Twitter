@@ -8,7 +8,7 @@ INCLUDED WITH CODE IS DB FOLDER THAT CONSTAINS THE DEV DATABASE COLLECTIONS JSON
 MAKE SURE NODE IS INSTALLED
 
 1. open terminal/cmd and cd to this directory.
-2. run the command "npm start".
+2. run the command "npm install" and then "npm start".
 3. open POSTMAN.
 4. if using localhost mongoDB server, start it and make connection changes in app.js
 5. by default, the database that is used is hosted on mLAB.
