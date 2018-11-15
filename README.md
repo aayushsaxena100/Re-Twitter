@@ -16,7 +16,7 @@ MAKE SURE NODE IS INSTALLED
 
 							-------------FUNCTIONALITIES-------------
 
-1. SIGNUP
+SIGNUP
 
 *	Send a POST request as --> localhost:3000/signup and set key-value pair in BODY section with
 	x-www-form-urlencoded. 
@@ -28,7 +28,7 @@ MAKE SURE NODE IS INSTALLED
 	ON SIGNING UP WITH USERNAME THAT ALREADY EXISTS: status code = 409
 
 
-2. LOGIN
+LOGIN
 
 *	Send a POST request as --> localhost:3000/login and set key-value pair in BODY section with
 	x-www-form-urlencoded. 
@@ -39,13 +39,13 @@ MAKE SURE NODE IS INSTALLED
 	ON EMPTY USERNAME OR PASSWORD: status code = 411
 	ON INCORRECT CREDENTIALS: status code = 401
 
-3. LOGOUT
+LOGOUT
 
 *	Send a GET request as --> localhost:3000/logout
 
 
 
-4. FOLLOW
+FOLLOW
 
 *	Send a POST request as --> localhost:3000/<usernameToFollow>/follow (ONE NEEDS TO BE LOGGED IN) 
 		
@@ -54,7 +54,7 @@ MAKE SURE NODE IS INSTALLED
 	ON ATTEMPT TO FOLLOW ALREADY FOLLOWING USER: status code = 409
 	ON ATTEMPT TO FOLLOW NON EXISTING USER : status code = 404
 
-5. UNFOLLOW
+UNFOLLOW
 
 *	Send a POST request as --> localhost:3000/<usernameToUnfollow>/unfollow (ONE NEEDS TO BE LOGGED IN) 
 		
@@ -62,7 +62,7 @@ MAKE SURE NODE IS INSTALLED
 	ON ATTEMPT TO UNFOLLOW YOURSELF: status code = 409
 	ON ATTEMPT TO UNFOLLOW ALREADY NOT FOLLOWING USER: status code = 409
 
-5. CREATE TWEET
+CREATE TWEET
 
 *	Send a POST request as --> localhost:3000/newTweet and set key-value pair in BODY section with
 	x-www-form-urlencoded. 
@@ -72,7 +72,7 @@ MAKE SURE NODE IS INSTALLED
 	ON SUCCESS: status code = 201
 	ON ATTEMPT TO TWEET EMPTY OR UNDEFINED CONTENT: status code = 400
 
-5. READ TWEET
+READ TWEET
 
 *	Send a POST request as -> localhost:3000/<username-of-user-whose-tweets-are-to-be-read>/tweets and set key-value pair in BODY section with x-www-form-urlencoded. 
 
@@ -83,7 +83,7 @@ MAKE SURE NODE IS INSTALLED
 	ON SUCCESS: status code = 201
 	ON ATTEMPT TO READ TWEET OF UNREGISTERED USER: status code = 404
 
-7. DELETE TWEET
+DELETE TWEET
 
 *	Send a DELETE request as --> localhost:3000/delete/<_id-of-to-be-deleted-tweet>
 		
@@ -95,7 +95,7 @@ MAKE SURE NODE IS INSTALLED
 	ON ATTEMPT TO DELETE NON EXISTING TWEET: status code = 404
 	ON ATTEMPT TO DELETE SOME OTHER USER'S TWEET: status code 401
 
-8. UNIT AND INTEGRATION TESTING
+UNIT AND INTEGRATION TESTING
 
 		----HOW TO----
 
@@ -113,7 +113,7 @@ MAKE SURE NODE IS INSTALLED
 
 
 
-9. LIKE A TWEET
+LIKE A TWEET
 
 *	Send a POST request as --> localhost:3000/like/<_id-of-tweet-to-be-liked>
 
@@ -127,7 +127,7 @@ MAKE SURE NODE IS INSTALLED
 	ON ATTEMPT TO LIKE NON EXISTING TWEET: status code = 404
 	ON ATTEMPT TO LIKE ALREADY LIKED TWEET: status code 409
 
-10. UNLIKE A TWEET
+UNLIKE A TWEET
 
 *	Send a POST request as --> localhost:3000/unlike/<_id-of-tweet-to-be-unliked>
 
@@ -141,7 +141,7 @@ MAKE SURE NODE IS INSTALLED
 	ON ATTEMPT TO UNLIKE NON EXISTING TWEET: status code = 404
 	ON ATTEMPT TO UNLIKE ALREADY UNLIKED TWEET: status code 409
 
-11. RETWEET A TWEET
+RETWEET A TWEET
 
 *	Send a POST request as --> localhost:3000/retweet/<_id-of-tweet-to-be-retweeted>
 
