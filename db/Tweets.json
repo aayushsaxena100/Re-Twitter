@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5bd428aae9da8a58ac695937"},"content":"First Tweet","author":"ezio","type":"tweet","likes":["martin","ezio"],"likes_count":{"$numberInt":"2"},"time":{"$date":{"$numberLong":"1540630698984"}}}
+{"_id":{"$oid":"5bd60a420cb84c1a68690a5e"},"content":"welcome to manchester united, Anthony Maaaaaartial","author":"martin","type":"tweet","likes":[],"likes_count":{"$numberInt":"0"},"time":{"$date":{"$numberLong":"1540753986995"}}}

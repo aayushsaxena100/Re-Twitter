@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5bd18f3d0f34f644f8c5f9b7"},"username":"ezio","password":"auditore","followList":["peter"],"followers":["peter","martin"]}
+{"_id":{"$oid":"5bd190fd346a6f508c86a9d9"},"username":"john","password":"doe","followList":["martin", "ezio"],"followers":["peter"]}
+{"_id":{"$oid":"5bd1916a6a4ceb508caaad95"},"username":"peter","password":"drurry","followList":[],"followers":[]}
+{"_id":{"$oid":"5bd1917b6a4ceb508caaad96"},"username":"martin","password":"tyler","followList":[],"followers":[]}

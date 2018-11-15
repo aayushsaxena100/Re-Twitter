@@ -1,0 +1,31 @@
+{
+  "name": "re-twitter",
+  "version": "1.0.0",
+  "description": "twitter app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Aayush Saxena",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "^2.5.6",
+    "express": "^4.16.4",
+    "express-session": "^1.15.3",
+    "mongodb": "^2.2.25",
+    "monk": "^4.1.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "superagent": "^4.0.0-beta.5",
+    "supertest": "^3.3.0"
+  }
+}
